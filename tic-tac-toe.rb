@@ -59,8 +59,7 @@ end
 
 # Defines base Player class
 class Player
-  attr_accessor :token
-  attr_reader :name
+  attr_reader :name, :token
   def initialize(name)
     @name = name
     @token = ''
